@@ -90,23 +90,13 @@ footer {
         "pieddepage pieddepage pieddepage";
         
     }
-
-    aside {
-        background-color: rgba(128, 128, 128, 0.486);
-        grid-area: photo;
-        text-align: center;
-        border: 5px solid black;
-        border-radius: 10px;
-        
-    }
     
     aside img{
-        width: 50%;
+        width: 100%;
         height: auto;
         border: 2px solid black;
         border-radius: 5px;
         
-    
     }
 
 }
@@ -126,13 +116,4 @@ footer {
         ;
     }
 
-    aside img{
-        width: 90%;
-        height: auto;
-        border: 2px solid black;
-        border-radius: 5px;
-        
-    
-    }
-    
 }
