@@ -14,11 +14,16 @@ la 2ème occupe automatiquement ce qui reste en fonction du contenu
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 100px auto 100px;
+    
 }
 
 
 header {
     background-color: rgba(0, 255, 255, 0.329);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
 }
 
