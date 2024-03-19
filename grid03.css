@@ -16,6 +16,10 @@ la 2ème occupe automatiquement ce qui reste en fonction du contenu
     grid-template-rows: 100px auto 100px;
     column-gap: 15px;
     row-gap: 10px;
+    grid-template-areas: 
+    "entete entete entete"
+    "menu principal photos"
+    "pieddepage pieddepage pieddepage";
     
 }
 
