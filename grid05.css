@@ -24,6 +24,7 @@ h1 {
 #galerie img:nth-child(5) {
 justify-self: start;
 align-self: end;
-
+order: -1;
 
 }
+
