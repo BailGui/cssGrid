@@ -20,3 +20,10 @@ h1 {
 
 }
 
+/*les propriétés (-self) indiquent l'alignement d'un élément différent des autres */
+#galerie img:nth-child(5) {
+justify-self: start;
+align-self: end;
+
+
+}
