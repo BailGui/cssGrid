@@ -4,10 +4,11 @@ h1 {
 
 #global {
     display: grid;
-
+    grid-template-columns: repeat(3,300px);
     grid-auto-rows: minmax(200px, auto);
     grid-auto-columns: 300px;
-    grid-auto-flow: column;
+    grid-auto-flow: row;
+    justify-content: center;
     gap: 10px;
 }
 
