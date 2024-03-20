@@ -12,7 +12,10 @@ h1 {
     grid-template-rows: repeat(3,130px);
     grid-template-columns: repeat(3,150px);
 
-    justify-items: space-around;
+    justify-content: space-around;
+    align-content: center;
+
+    justify-items: center;
     align-items: center;
 
 }
