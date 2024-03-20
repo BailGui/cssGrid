@@ -3,7 +3,7 @@ h1 {
 }
 
 #galerie{
-    width: 600px;
+    width: fit-content;
     height: auto;
     margin: 0 auto;
     border: 3px solid black;
@@ -12,7 +12,8 @@ h1 {
     grid-template-rows: repeat(3,130px);
     grid-template-columns: repeat(3,150px);
     
-    grid-auto-flow: row;
+    grid-auto-flow: column;
+    grid-auto-columns: 150px;
 
     justify-content: center;
     align-content: start;
